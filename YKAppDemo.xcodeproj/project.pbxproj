@@ -13,6 +13,7 @@
 		EC54E00A1E1E54170024BAA5 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC54E0041E1E54170024BAA5 /* libcrypto.a */; };
 		EC54E00B1E1E54170024BAA5 /* librtmp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC54E0051E1E54170024BAA5 /* librtmp.a */; };
 		EC54E00C1E1E54170024BAA5 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC54E0061E1E54170024BAA5 /* libssl.a */; };
+		EC90E5591E1F64060077C18B /* README in Resources */ = {isa = PBXBuildFile; fileRef = EC90E5581E1F64060077C18B /* README */; };
 		EC90FDC81E1F34D30031249A /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EC90FDC61E1F34D30031249A /* libbz2.tbd */; };
 		EC90FDC91E1F34D30031249A /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EC90FDC71E1F34D30031249A /* libz.tbd */; };
 		EC9B8BCA1E1E559500AA5DA9 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC9B8BC91E1E559500AA5DA9 /* Kingfisher.framework */; };
@@ -40,6 +41,7 @@
 		EC54E0041E1E54170024BAA5 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
 		EC54E0051E1E54170024BAA5 /* librtmp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = librtmp.a; sourceTree = "<group>"; };
 		EC54E0061E1E54170024BAA5 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
+		EC90E5581E1F64060077C18B /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		EC90FDC61E1F34D30031249A /* libbz2.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; path = libbz2.tbd; sourceTree = "<group>"; };
 		EC90FDC71E1F34D30031249A /* libz.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; path = libz.tbd; sourceTree = "<group>"; };
 		EC90FDCA1E1F35EA0031249A /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
@@ -145,6 +147,7 @@
 		ECFAFA661E1E41F60078B9C0 = {
 			isa = PBXGroup;
 			children = (
+				EC90E5581E1F64060077C18B /* README */,
 				ECFAFA711E1E41F60078B9C0 /* YKAppDemo */,
 				ECFAFA701E1E41F60078B9C0 /* Products */,
 				BDDC60FEF2C6C3E12DC30123 /* Pods */,
@@ -288,6 +291,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC90E5591E1F64060077C18B /* README in Resources */,
 				ECFAFA7A1E1E41F60078B9C0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
