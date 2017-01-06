@@ -1,0 +1,33 @@
+PODS:
+  - Alamofire (4.2.0)
+  - AlamofireImage (3.2.0):
+    - Alamofire (~> 4.1)
+  - Kingfisher (3.2.0)
+  - SnapKit (3.0.2)
+  - SwiftyJSON (2.3.2)
+
+DEPENDENCIES:
+  - AlamofireImage (~> 3.0)
+  - Kingfisher (= 3.2.0)
+  - SnapKit
+  - SwiftyJSON (from `https://github.com/IBM-Swift/SwiftyJSON.git`)
+
+EXTERNAL SOURCES:
+  SwiftyJSON:
+    :git: https://github.com/IBM-Swift/SwiftyJSON.git
+
+CHECKOUT OPTIONS:
+  SwiftyJSON:
+    :commit: 5ca3f000588b49a3184271c21d36ade1205d81b2
+    :git: https://github.com/IBM-Swift/SwiftyJSON.git
+
+SPEC CHECKSUMS:
+  Alamofire: aa2e09d871c9160ac53c90e83c68064a94e3dfbe
+  AlamofireImage: 157ed682cc81d3b9db4fb90c1f12180ac552d93b
+  Kingfisher: 50407d1d5dbc34965009d425a286342ff36a84ea
+  SnapKit: 2e456761aa92d4d4067a7a5594c18769d451a8ad
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+
+PODFILE CHECKSUM: 3a77f9b559fa0b9126b23c6da2262d38f8f2b73c
+
+COCOAPODS: 1.2.0.beta.1

@@ -1,0 +1,6 @@
+framework module Pods_YKAppDemo {
+  umbrella header "Pods-YKAppDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

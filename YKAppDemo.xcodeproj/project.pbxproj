@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9110D6C69A736AF972BBF3D7 /* Pods_YKAppDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D860B6C67095C458DF224C7B /* Pods_YKAppDemo.framework */; };
+		EC54DFFF1E1E52140024BAA5 /* emmitParticles.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC54DFFE1E1E52140024BAA5 /* emmitParticles.swift */; };
+		EC54E0021E1E52700024BAA5 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC54E0011E1E52700024BAA5 /* DetailsViewController.swift */; };
+		EC54E00A1E1E54170024BAA5 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC54E0041E1E54170024BAA5 /* libcrypto.a */; };
+		EC54E00B1E1E54170024BAA5 /* librtmp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC54E0051E1E54170024BAA5 /* librtmp.a */; };
+		EC54E00C1E1E54170024BAA5 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC54E0061E1E54170024BAA5 /* libssl.a */; };
+		EC90FDC81E1F34D30031249A /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EC90FDC61E1F34D30031249A /* libbz2.tbd */; };
+		EC90FDC91E1F34D30031249A /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EC90FDC71E1F34D30031249A /* libz.tbd */; };
+		EC9B8BCA1E1E559500AA5DA9 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC9B8BC91E1E559500AA5DA9 /* Kingfisher.framework */; };
+		EC9B8BCC1E1E55A000AA5DA9 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC9B8BCB1E1E55A000AA5DA9 /* SwiftyJSON.framework */; };
+		EC9B8BCE1E1E55AE00AA5DA9 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC9B8BCD1E1E55AE00AA5DA9 /* SnapKit.framework */; };
+		EC9B8BD01E1E55B500AA5DA9 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC9B8BCF1E1E55B500AA5DA9 /* Alamofire.framework */; };
+		EC9B8BD21E1E55BD00AA5DA9 /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC9B8BD11E1E55BD00AA5DA9 /* AlamofireImage.framework */; };
+		EC9B8BDF1E1F317C00AA5DA9 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC9B8BDE1E1F317C00AA5DA9 /* IJKMediaFramework.framework */; };
+		ECFAFA731E1E41F60078B9C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFAFA721E1E41F60078B9C0 /* AppDelegate.swift */; };
+		ECFAFA7A1E1E41F60078B9C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECFAFA791E1E41F60078B9C0 /* Assets.xcassets */; };
+		ECFAFAA51E1E43000078B9C0 /* DMHeartFlyView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFAFA9D1E1E43000078B9C0 /* DMHeartFlyView.m */; };
+		ECFAFAB11E1E431E0078B9C0 /* YKCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFAFAAE1E1E431E0078B9C0 /* YKCreator.swift */; };
+		ECFAFAB21E1E431E0078B9C0 /* YKLive.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFAFAAF1E1E431E0078B9C0 /* YKLive.swift */; };
+		ECFAFAB31E1E431E0078B9C0 /* YKHomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFAFAB01E1E431E0078B9C0 /* YKHomeCell.swift */; };
+		ECFAFAB71E1E432F0078B9C0 /* YJCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFAFAB41E1E432F0078B9C0 /* YJCellTableViewCell.swift */; };
+		ECFAFAB81E1E432F0078B9C0 /* YKLivesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFAFAB61E1E432F0078B9C0 /* YKLivesTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B0A8B833CDF91748DF7D86F6 /* Pods-YKAppDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YKAppDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YKAppDemo/Pods-YKAppDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D860B6C67095C458DF224C7B /* Pods_YKAppDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YKAppDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7F0668073EAC87496E41864 /* Pods-YKAppDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YKAppDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-YKAppDemo/Pods-YKAppDemo.release.xcconfig"; sourceTree = "<group>"; };
+		EC54DFFE1E1E52140024BAA5 /* emmitParticles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = emmitParticles.swift; sourceTree = "<group>"; };
+		EC54E0011E1E52700024BAA5 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		EC54E0041E1E54170024BAA5 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
+		EC54E0051E1E54170024BAA5 /* librtmp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = librtmp.a; sourceTree = "<group>"; };
+		EC54E0061E1E54170024BAA5 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
+		EC90FDC61E1F34D30031249A /* libbz2.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; path = libbz2.tbd; sourceTree = "<group>"; };
+		EC90FDC71E1F34D30031249A /* libz.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; path = libz.tbd; sourceTree = "<group>"; };
+		EC90FDCA1E1F35EA0031249A /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		EC90FDCD1E1F3B0F0031249A /* YKAppDemo-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YKAppDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		EC9B8BC91E1E559500AA5DA9 /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = "../../Library/Developer/Xcode/DerivedData/YKAppDemo-gpuhzoxnerctlcdxuqqkvckqanvp/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework"; sourceTree = "<group>"; };
+		EC9B8BCB1E1E55A000AA5DA9 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../Library/Developer/Xcode/DerivedData/YKAppDemo-gpuhzoxnerctlcdxuqqkvckqanvp/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
+		EC9B8BCD1E1E55AE00AA5DA9 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = "../../Library/Developer/Xcode/DerivedData/YKAppDemo-gpuhzoxnerctlcdxuqqkvckqanvp/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework"; sourceTree = "<group>"; };
+		EC9B8BCF1E1E55B500AA5DA9 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../Library/Developer/Xcode/DerivedData/YKAppDemo-gpuhzoxnerctlcdxuqqkvckqanvp/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		EC9B8BD11E1E55BD00AA5DA9 /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireImage.framework; path = "../../Library/Developer/Xcode/DerivedData/YKAppDemo-gpuhzoxnerctlcdxuqqkvckqanvp/Build/Products/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework"; sourceTree = "<group>"; };
+		EC9B8BDE1E1F317C00AA5DA9 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		ECFAFA6F1E1E41F60078B9C0 /* YKAppDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YKAppDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECFAFA721E1E41F60078B9C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECFAFA791E1E41F60078B9C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECFAFA7E1E1E41F60078B9C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECFAFA9C1E1E43000078B9C0 /* DMHeartFlyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMHeartFlyView.h; sourceTree = "<group>"; };
+		ECFAFA9D1E1E43000078B9C0 /* DMHeartFlyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMHeartFlyView.m; sourceTree = "<group>"; };
+		ECFAFAAE1E1E431E0078B9C0 /* YKCreator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKCreator.swift; sourceTree = "<group>"; };
+		ECFAFAAF1E1E431E0078B9C0 /* YKLive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKLive.swift; sourceTree = "<group>"; };
+		ECFAFAB01E1E431E0078B9C0 /* YKHomeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKHomeCell.swift; sourceTree = "<group>"; };
+		ECFAFAB41E1E432F0078B9C0 /* YJCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJCellTableViewCell.swift; sourceTree = "<group>"; };
+		ECFAFAB61E1E432F0078B9C0 /* YKLivesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKLivesTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECFAFA6C1E1E41F60078B9C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9B8BD21E1E55BD00AA5DA9 /* AlamofireImage.framework in Frameworks */,
+				EC90FDC91E1F34D30031249A /* libz.tbd in Frameworks */,
+				EC9B8BD01E1E55B500AA5DA9 /* Alamofire.framework in Frameworks */,
+				EC90FDC81E1F34D30031249A /* libbz2.tbd in Frameworks */,
+				EC9B8BCE1E1E55AE00AA5DA9 /* SnapKit.framework in Frameworks */,
+				EC9B8BDF1E1F317C00AA5DA9 /* IJKMediaFramework.framework in Frameworks */,
+				EC9B8BCC1E1E55A000AA5DA9 /* SwiftyJSON.framework in Frameworks */,
+				EC9B8BCA1E1E559500AA5DA9 /* Kingfisher.framework in Frameworks */,
+				EC54E00C1E1E54170024BAA5 /* libssl.a in Frameworks */,
+				9110D6C69A736AF972BBF3D7 /* Pods_YKAppDemo.framework in Frameworks */,
+				EC54E00B1E1E54170024BAA5 /* librtmp.a in Frameworks */,
+				EC54E00A1E1E54170024BAA5 /* libcrypto.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E2D08FA4FC216AD2E1CC703 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC90FDCA1E1F35EA0031249A /* libbz2.tbd */,
+				EC9B8BD11E1E55BD00AA5DA9 /* AlamofireImage.framework */,
+				EC9B8BCF1E1E55B500AA5DA9 /* Alamofire.framework */,
+				EC9B8BCD1E1E55AE00AA5DA9 /* SnapKit.framework */,
+				EC9B8BCB1E1E55A000AA5DA9 /* SwiftyJSON.framework */,
+				EC9B8BC91E1E559500AA5DA9 /* Kingfisher.framework */,
+				D860B6C67095C458DF224C7B /* Pods_YKAppDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDDC60FEF2C6C3E12DC30123 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0A8B833CDF91748DF7D86F6 /* Pods-YKAppDemo.debug.xcconfig */,
+				E7F0668073EAC87496E41864 /* Pods-YKAppDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EC54E0001E1E52170024BAA5 /* 烟花 */ = {
+			isa = PBXGroup;
+			children = (
+				EC54DFFE1E1E52140024BAA5 /* emmitParticles.swift */,
+			);
+			name = "烟花";
+			sourceTree = "<group>";
+		};
+		EC9B8BDB1E1F307100AA5DA9 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				EC54E0011E1E52700024BAA5 /* DetailsViewController.swift */,
+			);
+			name = Detail;
+			sourceTree = "<group>";
+		};
+		EC9B8BDC1E1F308400AA5DA9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				ECFAFAB61E1E432F0078B9C0 /* YKLivesTableViewController.swift */,
+				ECFAFAB41E1E432F0078B9C0 /* YJCellTableViewCell.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		EC9B8BDD1E1F30A800AA5DA9 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				ECFAFA721E1E41F60078B9C0 /* AppDelegate.swift */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		ECFAFA661E1E41F60078B9C0 = {
+			isa = PBXGroup;
+			children = (
+				ECFAFA711E1E41F60078B9C0 /* YKAppDemo */,
+				ECFAFA701E1E41F60078B9C0 /* Products */,
+				BDDC60FEF2C6C3E12DC30123 /* Pods */,
+				3E2D08FA4FC216AD2E1CC703 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ECFAFA701E1E41F60078B9C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECFAFA6F1E1E41F60078B9C0 /* YKAppDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECFAFA711E1E41F60078B9C0 /* YKAppDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EC9B8BDD1E1F30A800AA5DA9 /* AppDelegate */,
+				ECFAFA991E1E43000078B9C0 /* VideoTool */,
+				ECFAFAAC1E1E431E0078B9C0 /* Model */,
+				ECFAFA851E1E42B40078B9C0 /* View */,
+				EC90FDCD1E1F3B0F0031249A /* YKAppDemo-Bridging-Header.h */,
+				ECFAFA791E1E41F60078B9C0 /* Assets.xcassets */,
+				ECFAFA7E1E1E41F60078B9C0 /* Info.plist */,
+			);
+			path = YKAppDemo;
+			sourceTree = "<group>";
+		};
+		ECFAFA851E1E42B40078B9C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EC9B8BDC1E1F308400AA5DA9 /* Home */,
+				EC9B8BDB1E1F307100AA5DA9 /* Detail */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		ECFAFA991E1E43000078B9C0 /* VideoTool */ = {
+			isa = PBXGroup;
+			children = (
+				EC9B8BDE1E1F317C00AA5DA9 /* IJKMediaFramework.framework */,
+				EC54E0041E1E54170024BAA5 /* libcrypto.a */,
+				EC54E0051E1E54170024BAA5 /* librtmp.a */,
+				EC54E0061E1E54170024BAA5 /* libssl.a */,
+				EC90FDC61E1F34D30031249A /* libbz2.tbd */,
+				EC90FDC71E1F34D30031249A /* libz.tbd */,
+				EC54E0001E1E52170024BAA5 /* 烟花 */,
+				ECFAFA9B1E1E43000078B9C0 /* HeartFlyView-master */,
+			);
+			path = VideoTool;
+			sourceTree = "<group>";
+		};
+		ECFAFA9B1E1E43000078B9C0 /* HeartFlyView-master */ = {
+			isa = PBXGroup;
+			children = (
+				ECFAFA9C1E1E43000078B9C0 /* DMHeartFlyView.h */,
+				ECFAFA9D1E1E43000078B9C0 /* DMHeartFlyView.m */,
+			);
+			path = "HeartFlyView-master";
+			sourceTree = "<group>";
+		};
+		ECFAFAAC1E1E431E0078B9C0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ECFAFAAD1E1E431E0078B9C0 /* Home */,
+				ECFAFAB01E1E431E0078B9C0 /* YKHomeCell.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ECFAFAAD1E1E431E0078B9C0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				ECFAFAAE1E1E431E0078B9C0 /* YKCreator.swift */,
+				ECFAFAAF1E1E431E0078B9C0 /* YKLive.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECFAFA6E1E1E41F60078B9C0 /* YKAppDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECFAFA811E1E41F60078B9C0 /* Build configuration list for PBXNativeTarget "YKAppDemo" */;
+			buildPhases = (
+				99648AF46153897A81C12926 /* [CP] Check Pods Manifest.lock */,
+				ECFAFA6B1E1E41F60078B9C0 /* Sources */,
+				ECFAFA6C1E1E41F60078B9C0 /* Frameworks */,
+				ECFAFA6D1E1E41F60078B9C0 /* Resources */,
+				FE12721A7EBBB589D977BA5B /* [CP] Embed Pods Frameworks */,
+				B643C2FB9DB03BEB63058C20 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YKAppDemo;
+			productName = YKAppDemo;
+			productReference = ECFAFA6F1E1E41F60078B9C0 /* YKAppDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECFAFA671E1E41F60078B9C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = czn;
+				TargetAttributes = {
+					ECFAFA6E1E1E41F60078B9C0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3KP42U57Y7;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = ECFAFA6A1E1E41F60078B9C0 /* Build configuration list for PBXProject "YKAppDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECFAFA661E1E41F60078B9C0;
+			productRefGroup = ECFAFA701E1E41F60078B9C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECFAFA6E1E1E41F60078B9C0 /* YKAppDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECFAFA6D1E1E41F60078B9C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECFAFA7A1E1E41F60078B9C0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		99648AF46153897A81C12926 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B643C2FB9DB03BEB63058C20 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YKAppDemo/Pods-YKAppDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE12721A7EBBB589D977BA5B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YKAppDemo/Pods-YKAppDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECFAFA6B1E1E41F60078B9C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECFAFA731E1E41F60078B9C0 /* AppDelegate.swift in Sources */,
+				ECFAFAB81E1E432F0078B9C0 /* YKLivesTableViewController.swift in Sources */,
+				EC54E0021E1E52700024BAA5 /* DetailsViewController.swift in Sources */,
+				EC54DFFF1E1E52140024BAA5 /* emmitParticles.swift in Sources */,
+				ECFAFAB31E1E431E0078B9C0 /* YKHomeCell.swift in Sources */,
+				ECFAFAB71E1E432F0078B9C0 /* YJCellTableViewCell.swift in Sources */,
+				ECFAFAB11E1E431E0078B9C0 /* YKCreator.swift in Sources */,
+				ECFAFAA51E1E43000078B9C0 /* DMHeartFlyView.m in Sources */,
+				ECFAFAB21E1E431E0078B9C0 /* YKLive.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		ECFAFA7F1E1E41F60078B9C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECFAFA801E1E41F60078B9C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECFAFA821E1E41F60078B9C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0A8B833CDF91748DF7D86F6 /* Pods-YKAppDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 3KP42U57Y7;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YKAppDemo/VideoTool",
+				);
+				INFOPLIST_FILE = YKAppDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YKAppDemo/VideoTool",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.YKAppDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SWIFT_MODULE_NAME)/$(SWIFT_MODULE_NAME)-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Debug;
+		};
+		ECFAFA831E1E41F60078B9C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7F0668073EAC87496E41864 /* Pods-YKAppDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 3KP42U57Y7;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YKAppDemo/VideoTool",
+				);
+				INFOPLIST_FILE = YKAppDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YKAppDemo/VideoTool",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.YKAppDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SWIFT_MODULE_NAME)/$(SWIFT_MODULE_NAME)-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECFAFA6A1E1E41F60078B9C0 /* Build configuration list for PBXProject "YKAppDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECFAFA7F1E1E41F60078B9C0 /* Debug */,
+				ECFAFA801E1E41F60078B9C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECFAFA811E1E41F60078B9C0 /* Build configuration list for PBXNativeTarget "YKAppDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECFAFA821E1E41F60078B9C0 /* Debug */,
+				ECFAFA831E1E41F60078B9C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECFAFA671E1E41F60078B9C0 /* Project object */;
+}
